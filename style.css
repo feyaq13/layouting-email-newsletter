@@ -1,0 +1,122 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #323439;
+    width: 550px;
+    margin: 20px auto;
+}
+
+main {
+    background-color: white;
+    font-size: 17px;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.simple-block {
+    margin-top: 25px;
+    background-color: mediumseagreen;
+    padding: 20px 40px;
+    padding-bottom: 15px;
+    color: white;
+    line-height: 27px;
+}
+
+.simple-block p:first-child {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.text {
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.block1 {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+.span {
+    text-align: center;
+    color: #1EB771;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+    margin: 0;
+}
+
+.block2 {
+    padding: 20px 0;
+}
+
+/* Обтекание текста картинкой или картинкой текста? Дилемма
+Хотя чтобы обтекал текст что-то так не сделать */
+.block2 > img {
+    border-radius: 50%;
+    float: left;
+    /* Начинаю путаться опять в каких случаях использовать паддинги и маржины */
+    margin-right: 30px;
+}
+
+.block2 .span,
+.block2 .text {
+    text-align: left;
+}
+
+footer div,
+footer a,
+footer p {
+    text-align: center;
+}
+
+footer img {
+    padding: 30px;
+    border-radius: 50%;
+}
+
+footer a {
+    margin: 20px 0;
+    display: block;
+    color: #4585f3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 13px;
+    text-decoration: none;
+    color: #4C7CA8;
+    white-space: nowrap;
+}
+
+.view {
+    margin: 30px 0;
+}
+
+.right {
+    line-height: 30px;
+    color: #7f7f7f;
+    padding: 0 45px;
+}
